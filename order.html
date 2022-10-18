@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/utilities.css" />
+  <script
+      src="https://kit.fontawesome.com/bdb4fccf7f.js"
+      crossorigin="anonymous">
+  </script>
+</head>
+<body>
+  <!---------------------------- Navigation ----------------------------------------->
+  <div class="navbar">
+    <div class="container flex">
+      <h1>Dedox</h1>
+      <nav>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/product.html">Product</a></li>
+          <li><a href="#" class="active-link">Order</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!------------------------------- order -------------------->
+  <div class="order">
+    <div class="container">
+      <h1 class="text-center m-2">Rasmiy saytimiz orqali istalgan bank kartalarini uydan chiqmasdan turib online tarzda buyurtma qiling. <br> <span>Yetkazib berish bepul.</span></h1>
+      <div class="card">
+        <form>
+          <div class="form-control">
+            <label for="fname">First name:</label><br>
+            <input type="text" name="" id="fname" required placeholder="Jhon" />
+          </div>
+          <div class="form-control">
+            <label for="lname">Last name:</label><br>
+            <input type="text" name="" id="lname" required placeholder="Doe" />
+          </div>
+          <div class="form-control">
+            <label for="date">Date of birth:</label><br>
+            <input type="date" name="" id="date" required>
+          </div>
+          <div class="form--control">
+            <label for="num">Phone number:</label>
+            <input type="number" name="" id="num" placeholder="+998 XX XXX-XX-XX">
+          </div>
+          <div class="from-control">
+            <label for="add">Address:</label><br>
+            <textarea name="" id="add" cols="30" rows="5" placeholder="New York.Brooklyn street 25"></textarea>
+          </div>
+          <div class="from-control">
+            <select name="" id="" class="form-select">
+              <option value="">Select a card</option>
+              <option value="">Uzcard</option>
+              <option value="">Humo card</option>
+              <option value="">Visa card</option>
+              <option value="">Mastercard</option>
+            </select>
+          </div>
+          <div class="from-control">
+            <label for="">Type of payment:</label><br>
+            <label for="cash">Cash</label>
+            <input type="radio" name="money" id="cash">
+            <br>
+            <label for="card">Card</label>
+            <input type="radio" name="money" id="card">
+          </div>
+          <input type="submit" value="GO" class="btn btn-primary" />
+        </form>
+      </div>
+    </div>
+  </div>
+  <!---------------------------- Footer ----------------------------------------->
+  <footer class="footer bg-dark py-5">
+    <div class="container grid-2 grid-3">
+      <div>
+        <h1>Dedox</h1>
+        <p>Copyright &copy; 2022</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/product.html">Product</a></li>
+          <li><a href="/order.html">Order</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="social">
+        <a href="#">
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-instagram fa-2x"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-telegram fa-2x"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
